@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #ffffff; /* ✅ Letras en blanco */
+  color: #ffffff !important; /* ✅ Todo el texto será blanco */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -18,11 +18,8 @@ body {
 }
 
 /* Texto del mensaje */
-p {
-  color: #ffffff; /* ✅ Cambio a blanco */
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 20px 0;
+p, h1, h2, h3, h4, h5, h6, div, span {
+  color: #ffffff !important; /* ✅ Forzado a blanco */
 }
 
 /* Botones */
@@ -78,14 +75,14 @@ p {
 .description {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #ffffff; /* Blanco */
+  color: #ffffff !important; /* ✅ Blanco */
 }
 
 /* Enlaces */
 .button a {
   text-decoration: none;
   font-size: 1rem;
-  color: #ffffff; /* Blanco */
+  color: #ffffff !important; /* ✅ Blanco */
 }
 
 /* Responsivo */
